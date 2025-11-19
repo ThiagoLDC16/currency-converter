@@ -76,7 +76,6 @@ app/
 
 ### Resultado da Conversão
 ![Resultado](screenshots/conversion_result.png)
-*Exibição do resultado com taxa de câmbio e data*
 
 ## API Utilizada
 
@@ -91,14 +90,6 @@ app/
 
 2. **GET /latest?from={from}&to={to}&amount={amount}**
     - Retorna taxa de conversão atualizada
-
-```bash
-# Executar testes unitários
-./gradlew test
-
-# Executar testes instrumentados
-./gradlew connectedAndroidTest
-```
 
 ## 📖 Referências
 
